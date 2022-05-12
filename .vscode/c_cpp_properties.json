@@ -1,0 +1,102 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "e:/School/College/2022/Adv Mechatronics/Advanced-Mechatronics-I-Labs/Movement Library/include",
+                "e:/School/College/2022/Adv Mechatronics/Advanced-Mechatronics-I-Labs/Movement Library/src",
+                "e:/School/College/2022/Adv Mechatronics/Advanced-Mechatronics-I-Labs/Movement Library/lib/SimpleRSLK",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/variants/MSP_EXP432P401R",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/system/source",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/system/energia",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/cores/msp432r",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/cores/msp432r/ti/runtime/wiring",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/cores/msp432r/ti/runtime/wiring/msp432",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/system/kernel/tirtos/packages/ti/sysbios/posix",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/system/kernel/tirtos/packages",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/system/source/ti/devices/msp432p4xx/driverlib",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/system/source/ti/devices/msp432p4xx/inc",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/system/source/ti/devices/msp432p4xx",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/system/source/third_party/CMSIS/Include",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/system/kernel/tirtos/boards/MSP_EXP432P401R",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/libraries/AIR430BoostEuropeETSI",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/libraries/AIR430BoostEuropeETSI/utility",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/libraries/AIR430BoostUSAFCC",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/libraries/AIR430BoostUSAFCC/utility",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/libraries/EduBPMKII_Screen",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/libraries/SPI",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/libraries/Servo",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/libraries/WiFi",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/libraries/WiFi/utility",
+                "C:/Users/charl/.platformio/packages/framework-energiamsp432r/libraries/Wire",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "e:/School/College/2022/Adv Mechatronics/Advanced-Mechatronics-I-Labs/Movement Library/include",
+                    "e:/School/College/2022/Adv Mechatronics/Advanced-Mechatronics-I-Labs/Movement Library/src",
+                    "e:/School/College/2022/Adv Mechatronics/Advanced-Mechatronics-I-Labs/Movement Library/lib/SimpleRSLK",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/variants/MSP_EXP432P401R",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/system/source",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/system/energia",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/cores/msp432r",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/cores/msp432r/ti/runtime/wiring",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/cores/msp432r/ti/runtime/wiring/msp432",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/system/kernel/tirtos/packages/ti/sysbios/posix",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/system/kernel/tirtos/packages",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/system/source/ti/devices/msp432p4xx/driverlib",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/system/source/ti/devices/msp432p4xx/inc",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/system/source/ti/devices/msp432p4xx",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/system/source/third_party/CMSIS/Include",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/system/kernel/tirtos/boards/MSP_EXP432P401R",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/libraries/AIR430BoostEuropeETSI",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/libraries/AIR430BoostEuropeETSI/utility",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/libraries/AIR430BoostUSAFCC",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/libraries/AIR430BoostUSAFCC/utility",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/libraries/EduBPMKII_Screen",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/libraries/SPI",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/libraries/Servo",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/libraries/WiFi",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/libraries/WiFi/utility",
+                    "C:/Users/charl/.platformio/packages/framework-energiamsp432r/libraries/Wire",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=48000000L",
+                "gcc",
+                "PLATFORMIO=50205",
+                "ENERGIA_MSP_EXP432P401R",
+                "ENERGIA_ARCH_MSP432R",
+                "__MSP432P401R__",
+                "BOARD_MSP_EXP432P401R",
+                "ARDUINO=10807",
+                "ENERGIA=10807",
+                "CORE_VERSION=5252",
+                "xdc_target_types__=gnu/targets/arm/std.h",
+                "xdc_target_name__=M4F",
+                "xdc_cfg__xheader__=\"configPkg/package/cfg/energia_pm4fg.h\"",
+                "xdc__nolocalstring=1",
+                "_DEFAULT_SOURCE",
+                ""
+            ],
+            "compilerPath": "C:/Users/charl/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m4",
+                "-mfpu=fpv4-sp-d16",
+                "-mabi=aapcs",
+                "-mfloat-abi=hard",
+                "-march=armv7e-m",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
